@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-13T23:44:19.6022063+08:00",
+  "source_path": "E:\\Projects\\10-知识库\\00-系统\\项目注册表.md",
+  "source_sha256": "CACEFC349E6E589103EAB3B18A1ED78722B11732F7D65AB146C416BF165CDEEE",
+  "capabilities_path": "E:\\Projects\\10-知识库\\10-项目\\Hermes-Harness\\config\\project_capabilities.json",
+  "capabilities_sha256": "6A302663F2B082AE08B1CB6C9D18C823F96CE0A7DFDA2F220A5F469D96A92780",
+  "projects": [
+    {
+      "id": "novel_workbench",
+      "name": "小说",
+      "status": "active",
+      "root_path": "E:\\Projects\\30-开发\\状态机",
+      "memory_path": "E:\\Projects\\30-开发\\状态机\\00_项目记忆",
+      "objective": "小说生成、门禁、正典与状态管理",
+      "routable": true,
+      "domains": "novel",
+      "actions": [
+        "analyze",
+        "create",
+        "update"
+      ]
+    },
+    {
+      "id": "ai_content",
+      "name": "AI剪辑",
+      "status": "active",
+      "root_path": "E:\\Projects\\10-知识库\\10-项目\\AI剪辑工作流",
+      "memory_path": "E:\\Projects\\10-知识库\\10-项目\\AI剪辑工作流\\00_项目记忆",
+      "objective": "运动分析、脚本、素材选择、导演、生图、生视频、Remotion装配、剪辑包装与QC成片",
+      "routable": true,
+      "domains": [
+        "sports",
+        "ai_video"
+      ],
+      "actions": [
+        "query",
+        "analyze",
+        "create",
+        "update",
+        "publish"
+      ]
+    },
+    {
+      "id": "content_audit",
+      "name": "内容审计",
+      "status": "active",
+      "root_path": "E:\\Projects\\40-业务\\赚钱2",
+      "memory_path": "E:\\Projects\\40-业务\\赚钱2\\00_项目记忆",
+      "objective": "商业化、内容分发、运营与效果反馈",
+      "routable": true,
+      "domains": [
+        "website",
+        "content_distribution"
+      ],
+      "actions": [
+        "query",
+        "analyze",
+        "create",
+        "update",
+        "publish"
+      ]
+    },
+    {
+      "id": "data_collection",
+      "name": "数据收集",
+      "status": "active",
+      "root_path": "E:\\Projects\\30-开发\\数据采集",
+      "memory_path": "E:\\Projects\\30-开发\\数据采集\\00_项目记忆",
+      "objective": "情报、资料、数据及GitHub项目的收集、核验与分发",
+      "routable": true,
+      "domains": [
+        "knowledge",
+        "research",
+        "data"
+      ],
+      "actions": [
+        "query",
+        "analyze",
+        "create",
+        "update"
+      ]
+    }
+  ]
+}
