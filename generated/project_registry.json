@@ -23,10 +23,10 @@
     },
     {
       "id": "ai_content",
-      "name": "AI剪辑",
+      "name": "AI内容创作",
       "status": "active",
-      "root_path": "E:\\Projects\\10-知识库\\10-项目\\AI剪辑工作流",
-      "memory_path": "E:\\Projects\\10-知识库\\10-项目\\AI剪辑工作流\\00_项目记忆",
+      "root_path": "E:\\Projects\\10-知识库\\10-项目\\AI内容创作工作流",
+      "memory_path": "E:\\Projects\\10-知识库\\10-项目\\AI内容创作工作流\\00_项目记忆",
       "objective": "运动分析、脚本、素材选择、导演、生图、生视频、Remotion装配、剪辑包装与QC成片",
       "routable": true,
       "domains": [
